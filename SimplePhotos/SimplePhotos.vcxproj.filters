@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="MainWindow.idl" />
+    <Midl Include="ImageFileInfo.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="ImageFileInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ImageFileInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Samples\1.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\2.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\3.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\4.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\5.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\6.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\7.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\8.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\9.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\10.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\11.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\12.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\13.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\14.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\15.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\16.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\17.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\18.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\19.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+    <Image Include="Assets\Samples\20.jpg">
+      <Filter>Assets\Samples</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{74d9675a-8756-4367-a7ce-246ce1e2922f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Samples">
+      <UniqueIdentifier>{2cf79dfd-68cc-410f-b99a-9a01e364f5c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

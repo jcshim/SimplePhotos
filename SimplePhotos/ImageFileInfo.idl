@@ -1,0 +1,15 @@
+// ImageFileInfo.idl
+namespace SimplePhotos
+{
+    runtimeclass ImageFileInfo : Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        ImageFileInfo(Windows.Storage.FileProperties.ImageProperties properties, Windows.Storage.StorageFile imageFile, String name, String type);
+        Windows.Storage.FileProperties.ImageProperties ImageProperties{ get; };
+        Windows.Storage.StorageFile ImageFile{ get; };
+        String ImageName{ get; };
+        String ImageFileType{ get; };
+        String ImageDimensions{ get; };
+        String ImageTitle;
+        UInt32 ImageRating;
+    }
+}
